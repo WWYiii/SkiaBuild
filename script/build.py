@@ -70,7 +70,7 @@ def main():
       'skia_use_system_freetype2=false',
       # 'skia_use_angle=true',
       'skia_use_direct3d=true',
-      'extra_cflags=[\"/MD\"]',
+      'extra_cflags=[\"/MDd\"]',
     ]
   elif 'android' == system:
     args += [
